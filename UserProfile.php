@@ -150,7 +150,7 @@ if (isset($_POST['delete_bio'])) {
                     $error = $_FILES['profile_image']['error'];
 
                     if ($error === 0) {
-                        if ($img_size > 500000) {
+                        if ($img_size > 10000000) {
                             $em = "Sorry, your file is too large";
                             header("Location: UserProfile.php?error=$em");
                         } else {
