@@ -51,9 +51,11 @@ if (isset($_SESSION["user"])) {
         ?>
         <form action="login.php" method="post">
             <div class="form-group">
+                <h4 style="color: white">Email</h4>
                 <input type ="email" placeholder="Enter Email: " name ="email" class="form-control"> 
             </div>
             <div class="form-group">
+            <h4 style="color: white">Password</h4>
                 <input type ="password" placeholder="Enter Password: " name ="password" class="form-control"> 
             </div>
             <a href="forgot-password.php" class="forgot-password-link">Forgot Password?</a>

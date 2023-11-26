@@ -14,10 +14,26 @@ function getConnection() {
 
     return $conn;
 }
+function getAllPostsData($conn) {
+    $sql = "SELECT * FROM posts";
+
+    $result = mysqli_query($conn, $sql);
+    $postsData = array();
+
+    if ($result && mysqli_num_rows($result) > 0) {
+        while ($row = mysqli_fetch_assoc($result)) {
+            $postsData[] = $row;
+        }
+        mysqli_free_result($result);
+    } else {
+        echo "";
+    }
+
+    return $postsData;
+}
 
 function getLoggedInUserID() {
     return isset($_SESSION['user']) ? $_SESSION['user'] : null;
 }
-
 
 ?>

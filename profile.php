@@ -1,6 +1,7 @@
 <?php
 session_start();
-require_once "database.php";
+include "database.php";
+$conn = getConnection();
 
 ?>
 
@@ -123,8 +124,8 @@ require_once "database.php";
 
         <div>
 
-        <a href="UserProfile.php">Back to Profile</a>
-        <p><a href="index.php">Back to Home</a></p></div>
+        <a class="button" href="UserProfile.php">Back to Profile</a><br>
+        <a class="button" href="index.php">Back to Home</a>
     </div>
 </body>
 </html>
