@@ -1,0 +1,161 @@
+body {
+    padding: 50px;
+    /*background-image: url("images/agency-img.jpg");*/
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(138, 190, 145, 0.8);
+}
+
+.container {
+    max-width: 950px;
+    max-height: 500px;
+    margin-right: 7px ;
+    padding: 50px;
+    background-color: rgba(4, 44, 8, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #333333;
+    
+}
+.UserContainer {
+    max-width: 500px;
+    max-height: 800px;
+    margin-left: 0px;
+    padding: 50px;
+    background-color: rgba(4, 44, 8, 0.8); 
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px #333333;
+ 
+}
+.main-container {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+    align-items: flex-start; /* Adjust alignment as needed */
+}
+.form-group {
+    margin-bottom: 30px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+}
+
+.alert {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.alert-danger {
+    background-color: #d13939;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+p{
+    color:white;
+}
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-btn {
+    text-align: center;
+}
+h1{
+    color: white;
+    text-shadow: 10px 10px 10px #302f2f;
+}
+
+ .forgot-password-link {
+    font-size: 14px; 
+}
+label{
+    color:white;
+}
+.green-border {
+    border: 2px solid green;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #208329;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin: 10px;
+    margin-top: 50px;
+}
+  
+.button:hover {
+    background-color: #2980b9;
+}
+
+/*status*/
+.status-post {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.status-post textarea {
+    width: 100%;
+    resize: vertical;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.status-post button {
+    padding: 8px 16px;
+    background-color: #208329;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.status-post button:hover {
+    background-color: #186e26;
+}
+
+.profile-picture-dropdown ul li a {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
