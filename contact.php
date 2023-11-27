@@ -34,33 +34,58 @@
   <section class="your_plans_section layout_padding-bottom layout_padding2-top">
     <div class="container">
       <div class="container-bg">
-        <h2>Your Plans</h2>
+        <h1>Your Plans</h1><br><br>
   
-        <div class="subscription_plan" onclick="window.location.href = 'payment.php'" onmouseover="this.style.backgroundColor = '#95D7F5'" onmouseout="this.style.backgroundColor = ''">
-          <h3>Basic</h3>
-          <h5>Price: Free</h5>
-          <p>Price: PHP 100/month</p>
+        <div class="container">
+        <div class="pricing-table">
+            <div class="pricing-table-plan" onclick="window.location.href = 'payment.php'" onmouseover="this.style.backgroundColor = '#95D7F5'" onmouseout="this.style.backgroundColor = ''">          
+                <h2>Basic</h2>
+                <h3 style = "background-color: #006633";>Free</h3>
+                <ul>
+                    <li>Personal Portfolio Creation</li>
+                    <li>Limited Access to Community Forums</li>
+                    <li>Basic Project Showcasing ( Limited to 3 projects )</li>
+                </ul>
+            </div>
+            
+            <div class="pricing-table-plan" onclick="window.location.href = 'payment.php'" onmouseover="this.style.backgroundColor = '#95D7F5'" onmouseout="this.style.backgroundColor = ''">           
+            <h2>Basic Premium</h2>
+            <h3 style = "background-color: #006633";>₱50/month</h3>
+            <ul>
+                <li>Personal Portfolio Creation</li>
+                <li>Full Access to Community Forums</li>
+                <li>Unlimited Project Showcasing</li>
+            </ul>
         </div>
   
+        <div class="pricing-table-plan" onclick="window.location.href = 'payment.php'" onmouseover="this.style.backgroundColor = '#95D7F5'" onmouseout="this.style.backgroundColor = ''">
+            
+                <h2>Premium Plus</h2>
+                <h3 style = "background-color: #006633";>₱99/month</h3>
+                <ul>
+                    <li>Personal Portfolio Creation</li>
+                    <li>Full Access to Community Forums</li>
+                    <li>Unlimited Project Showcasing</li>
+                    <li>A-list Circle Award Nominations</li>
+                </ul>
+            </div>
+</div>
+</div>
+</div>
+<div class="container">
+      <div class="container-bg">
+      <h1>Pay-per-Use</h1><br><br>
         <div class="subscription_plan" onclick="window.location.href = 'payment.php'" onmouseover="this.style.backgroundColor = '#95D7F5'" onmouseout="this.style.backgroundColor = ''">
-          <h3>Standard Premium</h3>
-          <p>Price: PHP 200/month</p>
-        </div>
-  
-        <div class="subscription_plan" onclick="window.location.href = 'payment.php'" onmouseover="this.style.backgroundColor = '#95D7F5'" onmouseout="this.style.backgroundColor = ''">
-          <h3>Premium Plus</h3>
-          <p>Price: PHP 300/month</p>
-        </div>
-  
-        <div class="subscription_plan" onclick="window.location.href = 'payment.php'" onmouseover="this.style.backgroundColor = '#95D7F5'" onmouseout="this.style.backgroundColor = ''">
-          <h3>Premium Project Promotion</h3>
-          <p>Price: PHP 50 for each promoted project</p>
+          <h2>Premium Project Promotion</h2>
+          <h3 style = "background-color: #006633";>₱30</h3>
+            <p>for each promoted project</p>
         </div>
   
   
         <div class="subscription_plan" onclick="window.location.href = '#'" onmouseover="this.style.backgroundColor = '#95D7F5'" onmouseout="this.style.backgroundColor = ''">
-          <h3>Certification Programs</h3>
-          <p>Various certification programs priced at PHP 500 each</p>
+          <h2>Certification Programs</h2>
+          <h3 style = "background-color: #006633";>₱300</h3>
+            <p>for each program</p>
         </div>
       </div>
     </div>
@@ -141,6 +166,7 @@
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

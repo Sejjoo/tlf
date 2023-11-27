@@ -586,15 +586,74 @@ a:focus {
 .your_plans_section .subscription_plan {
   text-align: center;
   margin-bottom: 45px;
+  margin-left: 50px;
   padding: 20px;
   border: 1px solid #006634;
   border-radius: 5px;
 }
 
-.your_plans_section h3 {
+.container {
+  width: 200%;
+  margin:  auto;
+  
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-table-plan {
+  width: 30%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 1px solid #006634;
+  border-radius: 10px;
+}
+
+.pricing-table-plan h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #006634;
+}
+
+.pricing-table-plan h3 {
+  color: #999;
+  margin-bottom: 30px;
+}
+
+.pricing-table-plan ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing-table-plan li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.pricing-table-plan li:last-child {
+  border-bottom: none;
+}
+
+.your_plans_section h1 {
   text-transform: uppercase;
   font-weight: bold;
   color: #006634;
+}
+
+.your_plans_section h2 {
+  
+  font-weight: bold;
+  color: #006634;
+}
+
+.your_plans_section h3 {
+  
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .your_plans_section .plan_features ul {
