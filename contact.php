@@ -36,28 +36,29 @@
       <div class="container-bg">
         <h2>Your Plans</h2>
   
-        <div class="subscription_plan">
-          <h3>Basic Premium</h3>
+        <div class="subscription_plan" onclick="window.location.href = 'payment.php'" onmouseover="this.style.backgroundColor = '#95D7F5'" onmouseout="this.style.backgroundColor = ''">
+          <h3>Basic</h3>
+          <h5>Price: Free</h5>
           <p>Price: PHP 100/month</p>
         </div>
   
-        <div class="subscription_plan">
+        <div class="subscription_plan" onclick="window.location.href = 'payment.php'" onmouseover="this.style.backgroundColor = '#95D7F5'" onmouseout="this.style.backgroundColor = ''">
           <h3>Standard Premium</h3>
           <p>Price: PHP 200/month</p>
         </div>
   
-        <div class="subscription_plan">
+        <div class="subscription_plan" onclick="window.location.href = 'payment.php'" onmouseover="this.style.backgroundColor = '#95D7F5'" onmouseout="this.style.backgroundColor = ''">
           <h3>Premium Plus</h3>
           <p>Price: PHP 300/month</p>
         </div>
   
-        <div class="subscription_plan">
+        <div class="subscription_plan" onclick="window.location.href = 'payment.php'" onmouseover="this.style.backgroundColor = '#95D7F5'" onmouseout="this.style.backgroundColor = ''">
           <h3>Premium Project Promotion</h3>
           <p>Price: PHP 50 for each promoted project</p>
         </div>
   
   
-        <div class="subscription_plan">
+        <div class="subscription_plan" onclick="window.location.href = '#'" onmouseover="this.style.backgroundColor = '#95D7F5'" onmouseout="this.style.backgroundColor = ''">
           <h3>Certification Programs</h3>
           <p>Various certification programs priced at PHP 500 each</p>
         </div>
